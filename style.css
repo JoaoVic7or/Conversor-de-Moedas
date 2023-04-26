@@ -72,12 +72,13 @@ h1{
 }
 @media (max-width: 960px){
     .valor1, .valor2 { 
-        width: 200px;
+        width: 80%;
     }
 }
 @media (max-width: 768px){
     .valor1, .valor2{
-        width: auto;
+        width: 200px;
+        font-size: 16px;
     }
 }
 @media (max-width: 300px){
@@ -89,9 +90,10 @@ h1{
 #sel_from, #sel_to { 
     padding: 10px;
     border: none;
+    border-left: 1px solid black;
     outline: none;
 }
-@media (max-width: 900px){
+@media (max-width: 960px){
     #sel_from, #sel_to { 
         width: 20%;
     }

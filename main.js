@@ -9,9 +9,7 @@ const currencies = [
     { value: 'BRL', label:'BRL'},
     { value: 'USD', label: 'USD'},
     { value: 'EUR', label: 'EUR'},
-    { value: 'JPY', label: 'JPY'},
-    { value: 'ARS', label: 'ARS'},
-    { value: 'AED', label: 'AED'},
+    { value: 'GBP', label: 'GBP'},
 ];
 currencies.forEach((currency) =>{
     const optionsFrom = document.createElement('option')
